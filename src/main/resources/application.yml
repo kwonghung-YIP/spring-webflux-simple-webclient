@@ -1,0 +1,7 @@
+spring:
+  main:
+    web-application-type: none
+    
+server:  ssl:    trust-store: classpath:trust.p12
+    trust-store-type: PKCS12
+    trust-store-password: abcd1234
